@@ -42,7 +42,7 @@ def on_click_book_ticket():
         NUMBER OF PASSENGERS : {number_passenger}
         TOTAL AMOUNT: Rs.{number_passenger * fare}
     """
-    with open("C:\\Users\\aryam\\OneDrive\\Desktop\\Tkinter - Python\\Data_1.txt","w") as t:
+    with open("Data_1.txt","w") as t:
         t.write(ticket_data)
     messagebox.showinfo("METRO CORPORATION JODHPUR", ticket_data)
     qr = qrcode.QRCode(version=1, box_size=10, border=5)
