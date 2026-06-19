@@ -1,6 +1,7 @@
 import tkinter as tk
 from tkinter import messagebox
 import qrcode
+import os
 
 root = tk.Tk()
 root.title("METRO SOFTWARE")
